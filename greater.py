@@ -1,11 +1,13 @@
-a = int(input())
-b = int(input())
-c = int(input())
-if (a>=b ) and (a>=c):
-  print(a)
-elif (b>=a) and (b>=c):
+a,b,c=input().split()
+a=int(num1)
+b=int(num2)
+c=int(num3)
+if(a>b):
+  if(a>c):
+    print(a)
+  else:
+    print(b)
+elif(b>c):
   print(b)
-elif (a<=c) and (b<=c):
-  print(c)
 else:
-  print('invalid')
+  print(c)
